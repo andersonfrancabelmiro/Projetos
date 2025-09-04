@@ -1,0 +1,1 @@
+O programa irá mostrar quatro valores numéricos e qual tipo eles são: int, float, str e bool, usando a função type()
