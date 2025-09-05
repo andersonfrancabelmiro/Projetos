@@ -1,11 +1,11 @@
-contador = (input("Digite um fruta: "))
+frutas = []
 i = 1
-while i <= 4 :
-    print(i)
-    i += 1
-futras =  []
+for i in range(4):
+    fruta = (input("Digite um fruta: "))
+    frutas.append(fruta)
 
 
-#print(futras[i])
-
+print("Suas frutas:")
+for fruta in frutas:
+    print("-", fruta)
 
